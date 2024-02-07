@@ -16,7 +16,7 @@ namespace Grupp_J_Väderdata
                 Console.WriteLine("[3]Sortering av torrast till fuktigaste dagen enligt medelluftfuktighet per dag");
                 Console.WriteLine("[4]Sortering av minst till störst risk av mögel");
                 Console.WriteLine("[5]Datum för meteorologisk Höst. Datum för meteologisk vinter(OBS Mild vinter!)");
-                
+
                 Console.WriteLine("\nINOMHUS");
                 Console.WriteLine("[6]Medeltemperatur för valt datum(sökmöjlighet med validering)");  
                 Console.WriteLine("[7]Sortering av varmast till kallaste dagen enligt medeltemperatur per dag");
@@ -25,9 +25,9 @@ namespace Grupp_J_Väderdata
                 Console.WriteLine("[a]Mögelrisk\n");
 
 
+                //MyMeths.TestFileReadMatch();
 
-                //MyMeths.TestFileRead();
-                
+
                 ConsoleKeyInfo key = Console.ReadKey(true);
                 switch (key.KeyChar)
                 {
@@ -73,7 +73,7 @@ namespace Grupp_J_Väderdata
                         break;
                     case 'a':
                         //Mögelrisk
-                        MyMeths.MoldFormula2();
+                        MyMeths.MoldFormula();
                         break;
                     
                     default:
@@ -82,7 +82,7 @@ namespace Grupp_J_Väderdata
                 }
 
                 Console.ReadKey(true);
-                //Console.Clear();
+                Console.Clear();
             
             }
         }
