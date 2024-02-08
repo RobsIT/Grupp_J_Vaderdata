@@ -19,24 +19,21 @@ namespace Grupp_J_Väderdata
         public static string path = "../../../Files/";
 
         //UTOMHUS
-        public static void Method1()
+        public static void Method1()//FUNKAR KLAR!!!
         {
             //Medeltemperatur och luftfuktighet per dag, för valt datum(sökmöjlighet med validering): FUNGERAR! Lägg till kontroll av datum
-            Console.WriteLine("Skriv in datum YYYY-MM-DD: ");
+            Console.WriteLine("Medeltemperatur och luftfuktighet per dag, för valt datum");
+            Console.Write("Skriv in datum YYYY-MM-DD: ");
             string dateInput = Console.ReadLine();
-
-            if (!DateTime.TryParseExact(dateInput, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime date))
+            if (!DateTime.TryParseExact(dateInput, "yyyy-mm-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime date))
             {
                 Console.WriteLine("Felaktigt datumformat. Ange datumet i formatet YYYY-MM-DD.");
                 return;
             }
-
             string filePath = "../../../Files/" + "tempdata5-med fel.txt";
             string fileContent = File.ReadAllText(filePath);
             var preprocessedData = WeatherDataProcessor.PreprocessData(fileContent);
-
             var selectedData = preprocessedData.Where(g => g.Groups[1].Value == dateInput && g.Groups[3].Value == "Ute");
-
             if (!selectedData.Any())
             {
                 Console.WriteLine($"Ingen data hittades för datumet {dateInput} Ute.");
@@ -44,19 +41,17 @@ namespace Grupp_J_Väderdata
             }
             var avgTemp = selectedData.Average(g => double.Parse(g.Groups[4].Value, CultureInfo.InvariantCulture));
             var avgHumidity = selectedData.Average(g => double.Parse(g.Groups[5].Value, CultureInfo.InvariantCulture));
-
             Console.WriteLine($"Medeltemperatur: {avgTemp:F2}°C, Medelluftfuktighet: {avgHumidity:F2}% för datumet {dateInput} Ute.");
         }
 
 
-        //◦ Sortering av varmast till kallaste dagen enligt medeltemperatur per dag
-        public static void Method2()
+        public static void Method2()//FUNKAR KLAR!!!
         {
+             //◦ Sortering av varmast till kallaste dagen enligt medeltemperatur per dag
             Console.WriteLine("Varmaste till kallaste medeltemperatur per dag utomhus:");
             string filePath = "../../../Files/" + "tempdata5-med fel.txt";
             string fileContent = File.ReadAllText(filePath);
             var preprocessedData = WeatherDataProcessor.PreprocessData(fileContent);
-
             var dailyTemperatures = preprocessedData
                 .Where(g => g.Groups[3].Value == "Ute")
                 .GroupBy(g => g.Groups[1].Value) // Gruppera efter datum
@@ -68,7 +63,6 @@ namespace Grupp_J_Väderdata
                 })
                 .OrderByDescending(g => g.AvgTemp) // Sortera från högsta till lägsta medeltemperatur
                 .ToList();
-
             foreach (var day in dailyTemperatures)
             {
                 // Uppdaterad utskrift för att visa den avrundade medeltemperaturen
@@ -77,14 +71,13 @@ namespace Grupp_J_Väderdata
         }
 
 
-        //◦ Sortering av torrast till fuktigaste dagen enligt medelluftfuktighet per dag
-        public static void Method3()
+        public static void Method3()//FUNKAR KLAR!!!
         {
+            //◦ Sortering av torrast till fuktigaste dagen enligt medelluftfuktighet per dag
             Console.WriteLine("Torrast till fuktigaste dagen enligt medelluftfuktighet per dag utomhus:");
             string filePath = "../../../Files/" + "tempdata5-med fel.txt";
             string fileContent = File.ReadAllText(filePath);
             var preprocessedData = WeatherDataProcessor.PreprocessData(fileContent);
-
             var dailyHumidity = preprocessedData
                 .Where(g => g.Groups[3].Value == "Ute")
                 .GroupBy(g => g.Groups[1].Value) // Gruppera efter datum
@@ -95,7 +88,6 @@ namespace Grupp_J_Väderdata
                 })
                 .OrderBy(g => g.AvgHumidity) // Sortera från lägsta till högsta medelluftfuktighet
                 .ToList();
-
             foreach (var day in dailyHumidity)
             {
                 Console.WriteLine($"{day.Date}: Medelluftfuktighet = {day.AvgHumidity}%");
@@ -103,15 +95,13 @@ namespace Grupp_J_Väderdata
         }
 
 
-        //◦ Sortering av minst till störst risk av mögel
-        public static void Method4()
+        public static void Method4()//FUNKAR KLAR!!!
         {
+            //◦ Sortering av minst till störst risk av mögel
             Console.WriteLine("Sortering av minst till störst risk av mögel utomhus:");
             string filePath = "../../../Files/" + "tempdata5-med fel.txt";
             string fileContent = File.ReadAllText(filePath);
-
             var preprocessedData = WeatherDataProcessor.PreprocessData(fileContent);
-
             var moldRisk = preprocessedData
                 .Where(g => g.Groups[3].Value == "Ute")
                 .GroupBy(g => g.Groups[1].Value) // Gruppera efter datum
@@ -130,62 +120,71 @@ namespace Grupp_J_Väderdata
                 })
                 .OrderBy(g => g.MoldRisk)
                 .ToList();
-
             foreach (var day in moldRisk)
             {
                 Console.WriteLine($"{day.Date}: Genomsnittlig mögelrisk = {day.MoldRisk:F2}");
             }
         }
 
-
-
-
-        //◦ Datum för meteorologisk Höst
-        //◦ Datum för meteologisk vinter(OBS Mild vinter!)
         public static void Method5()
         {
+            //◦ Datum för meteorologisk Höst
+            Console.WriteLine("Datum för meteorologisk Höst:");
+            string filePath = "../../../Files/" + "tempdata5-med fel.txt";
+            string fileContent = File.ReadAllText(filePath);
+            var preprocessedData = WeatherDataProcessor.PreprocessData(fileContent);//Hoppar över April 2016 och Jan 2017.
+            var selectedData = preprocessedData.Where(g => g.Groups[3].Value == "Ute");
+            Console.WriteLine("- " + selectedData.Count());
+            //var avgTemp = selectedData.Average(g => double.Parse(g.Groups[4].Value == @"(\d+\.\d+)"));
+            //var autumnTemp = selectedData.Count(g => double.Parse(g.Groups[4].Value <= "10"));
+            //var autumnDays = selectedData.Select((temp, index) => new { Temperature = temp, Day = index + 1 }).Where(entry => entry.Temperature < 10.0);
+
+
+            //var autumnDate = selectedData.Where(g => g.Groups[1].Value == @"(2016-\d{2}-\d{2})" && g.Groups[3].Value == "Ute" && g.Groups[4].Value == @"(\\d+\\.\\d+)");
+
+
+
+            //Console.Write($"Meteorologisk höst börjar: {avgTemp}");
+
+
+            //◦ Datum för meteologisk vinter(OBS Mild vinter!)
+
 
         }
 
         //INOMHUS
-        //Medeltemperatur och luftfuktighet per dag, för valt datum(sökmöjlighet med validering): FUNGERAR! Lägg till kontroll av datum
-        public static void Method6()
+        public static void Method6()//FUNKAR KLAR!!!
         {
+            //Medeltemperatur och luftfuktighet per dag, för valt datum(sökmöjlighet med validering): FUNGERAR! Lägg till kontroll av datum
+            Console.WriteLine("Medeltemperatur och luftfuktighet per dag, för valt datum");
             Console.WriteLine("Skriv in datum YYYY-MM-DD: ");
             string dateInput = Console.ReadLine();
-
-            if (!DateTime.TryParseExact(dateInput, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime date))
+            if (!DateTime.TryParseExact(dateInput, "yyyy-mm-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime date))
             {
                 Console.WriteLine("Felaktigt datumformat. Ange datumet i formatet YYYY-MM-DD.");
-                return;
+                //return;
             }
-
             string filePath = "../../../Files/" + "tempdata5-med fel.txt";
             string fileContent = File.ReadAllText(filePath);
             var preprocessedData = WeatherDataProcessor.PreprocessData(fileContent);
-
             var selectedData = preprocessedData.Where(g => g.Groups[1].Value == dateInput && g.Groups[3].Value == "Inne");
-
             if (!selectedData.Any())
             {
                 Console.WriteLine($"Ingen data hittades för datumet {dateInput} Inne.");
-                return;
+                //return;
             }
-
             var avgTemp = selectedData.Average(g => double.Parse(g.Groups[4].Value, CultureInfo.InvariantCulture));
             var avgHumidity = selectedData.Average(g => double.Parse(g.Groups[5].Value, CultureInfo.InvariantCulture));
-
             Console.WriteLine($"Medeltemperatur: {avgTemp:F2}°C, Medelluftfuktighet: {avgHumidity:F2}% för datumet {dateInput} Inne.");
         }
 
-        //◦ Sortering av varmast till kallaste dagen enligt medeltemperatur per dag
-        public static void Method7()
+        public static void Method7()//FUNKAR KLAR!!!
         {
+            //◦ Sortering av varmast till kallaste dagen enligt medeltemperatur per dag
             Console.WriteLine("Varmaste till kallaste medeltemperatur per dag inomhus:");
             string filePath = "../../../Files/" + "tempdata5-med fel.txt";
             string fileContent = File.ReadAllText(filePath);
             var preprocessedData = WeatherDataProcessor.PreprocessData(fileContent);
-
             var dailyTemperatures = preprocessedData
                 .Where(g => g.Groups[3].Value == "Inne")
                 .GroupBy(g => g.Groups[1].Value) // Gruppera efter datum
@@ -197,7 +196,6 @@ namespace Grupp_J_Väderdata
                 })
                 .OrderByDescending(g => g.AvgTemp) // Sortera från högsta till lägsta medeltemperatur
                 .ToList();
-
             foreach (var day in dailyTemperatures)
             {
                 // Uppdaterad utskrift för att visa den avrundade medeltemperaturen
@@ -206,9 +204,9 @@ namespace Grupp_J_Väderdata
         }
 
 
-        //◦ Sortering av torrast till fuktigaste dagen enligt medelluftfuktighet per dag
-        public static void Method8()
+        public static void Method8()//FUNKAR KLAR!!!
         {
+            //◦ Sortering av torrast till fuktigaste dagen enligt medelluftfuktighet per dag
             Console.WriteLine("Torrast till fuktigaste dagen enligt medelluftfuktighet per dag inomhus:");
             string filePath = "../../../Files/" + "tempdata5-med fel.txt";
             string fileContent = File.ReadAllText(filePath);
@@ -231,29 +229,35 @@ namespace Grupp_J_Väderdata
             }
         }
 
-        public static void Method9()
+        public static void Method9()//TESTA IGEN
         {
             //◦ Sortering av minst till störst risk av mögel
-
-            string fileName = "tempdata5-med fel.txt";
-            Regex regex = new Regex(@"2016-06-01"); //2016-06-01 13:58:30,Inne,24.8,42
-            MatchCollection matches = regex.Matches(fileName);
-            //string fileContents = reader.ReadToEnd();
-            //using (StreamReader reader = new StreamReader(path + fileName))
-            //{
-            //    //string text = StreamReader.ReadAllText("tempdata5-med fel.txt");
-            //    //File.ReadAllLines() → string[] – Läser alla rader i filen: string[] lines = File.ReadAllLines("tempdata5-med fel.txt")
-            //    // Läser in hela filen string fileContents = reader.ReadToEnd();
-            //    // Skriver ut filen I konsollen Console.WriteLine(fileContents);
-            //    // Stänger filströmmen reader.Close();
-
-            //    foreach (Regex mat in matches) 
-            //    {
-            //        Console.WriteLine("- " + mat.Match(fileName));
-
-            //    }
-            //}
-
+            Console.WriteLine("Sortering av minst till störst risk av mögel inomhus:");
+            string filePath = "../../../Files/" + "tempdata5-med fel.txt";
+            string fileContent = File.ReadAllText(filePath);
+            var preprocessedData = WeatherDataProcessor.PreprocessData(fileContent);
+            var moldRisk = preprocessedData
+                .Where(g => g.Groups[3].Value == "Inne")
+                .GroupBy(g => g.Groups[1].Value) // Gruppera efter datum
+                .Select(group => new
+                {
+                    Date = group.Key,
+                    MoldRisk = group.Average(g =>
+                    {
+                        var temp = double.Parse(g.Groups[4].Value, CultureInfo.InvariantCulture);
+                        var humidity = double.Parse(g.Groups[5].Value, CultureInfo.InvariantCulture);
+                        // Exempel på ett villkor: Utför beräkningen endast om luftfuktigheten är över 78%
+                        return humidity > 78 ?
+                               ((humidity - 78) * (temp / 15)) / 0.22 :
+                               0; // Sätt mögelrisken till 0 om villkoret inte är uppfyllt
+                    })
+                })
+                .OrderBy(g => g.MoldRisk)
+                .ToList();
+            foreach (var day in moldRisk)
+            {
+                Console.WriteLine($"{day.Date}: Genomsnittlig mögelrisk = {day.MoldRisk:F2}");
+            }
         }
 
 
