@@ -1,28 +1,42 @@
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Programmering i .NET C# 2\Kurs C# Kod\Grupp_J_Väderdata\Grupp_J_Väderdata\bin\Debug\net7.0\Grupp_J_Väderdata.exe
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Programmering i .NET C# 2\Kurs C# Kod\Grupp_J_Väderdata\Grupp_J_Väderdata\bin\Debug\net7.0\Grupp_J_Väderdata.deps.json
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Programmering i .NET C# 2\Kurs C# Kod\Grupp_J_Väderdata\Grupp_J_Väderdata\bin\Debug\net7.0\Grupp_J_Väderdata.runtimeconfig.json
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Programmering i .NET C# 2\Kurs C# Kod\Grupp_J_Väderdata\Grupp_J_Väderdata\bin\Debug\net7.0\Grupp_J_Väderdata.dll
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Programmering i .NET C# 2\Kurs C# Kod\Grupp_J_Väderdata\Grupp_J_Väderdata\bin\Debug\net7.0\Grupp_J_Väderdata.pdb
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Programmering i .NET C# 2\Kurs C# Kod\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\Grupp_J_Väderdata.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Programmering i .NET C# 2\Kurs C# Kod\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\Grupp_J_Väderdata.AssemblyInfoInputs.cache
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Programmering i .NET C# 2\Kurs C# Kod\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\Grupp_J_Väderdata.AssemblyInfo.cs
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Programmering i .NET C# 2\Kurs C# Kod\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\Grupp_J_Väderdata.csproj.CoreCompileInputs.cache
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Programmering i .NET C# 2\Kurs C# Kod\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\Grupp_J_Väderdata.dll
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Programmering i .NET C# 2\Kurs C# Kod\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\refint\Grupp_J_Väderdata.dll
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Programmering i .NET C# 2\Kurs C# Kod\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\Grupp_J_Väderdata.pdb
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Programmering i .NET C# 2\Kurs C# Kod\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\Grupp_J_Väderdata.genruntimeconfig.cache
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Programmering i .NET C# 2\Kurs C# Kod\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\ref\Grupp_J_Väderdata.dll
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Arkitektur av applikationer i .NET C#\C# Koder\Grupp_J_Väderdata\Grupp_J_Väderdata\bin\Debug\net7.0\Grupp_J_Väderdata.exe
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Arkitektur av applikationer i .NET C#\C# Koder\Grupp_J_Väderdata\Grupp_J_Väderdata\bin\Debug\net7.0\Grupp_J_Väderdata.deps.json
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Arkitektur av applikationer i .NET C#\C# Koder\Grupp_J_Väderdata\Grupp_J_Väderdata\bin\Debug\net7.0\Grupp_J_Väderdata.runtimeconfig.json
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Arkitektur av applikationer i .NET C#\C# Koder\Grupp_J_Väderdata\Grupp_J_Väderdata\bin\Debug\net7.0\Grupp_J_Väderdata.dll
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Arkitektur av applikationer i .NET C#\C# Koder\Grupp_J_Väderdata\Grupp_J_Väderdata\bin\Debug\net7.0\Grupp_J_Väderdata.pdb
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Arkitektur av applikationer i .NET C#\C# Koder\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\Grupp_J_Väderdata.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Arkitektur av applikationer i .NET C#\C# Koder\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\Grupp_J_Väderdata.AssemblyInfoInputs.cache
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Arkitektur av applikationer i .NET C#\C# Koder\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\Grupp_J_Väderdata.AssemblyInfo.cs
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Arkitektur av applikationer i .NET C#\C# Koder\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\Grupp_J_Väderdata.csproj.CoreCompileInputs.cache
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Arkitektur av applikationer i .NET C#\C# Koder\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\Grupp_J_Väderdata.dll
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Arkitektur av applikationer i .NET C#\C# Koder\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\refint\Grupp_J_Väderdata.dll
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Arkitektur av applikationer i .NET C#\C# Koder\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\Grupp_J_Väderdata.pdb
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Arkitektur av applikationer i .NET C#\C# Koder\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\Grupp_J_Väderdata.genruntimeconfig.cache
-C:\Users\roblo_fjwpcan\OneDrive\SYSTEM23 Kurs\SYSTEM23 Arkitektur av applikationer i .NET C#\C# Koder\Grupp_J_Väderdata\Grupp_J_Väderdata\obj\Debug\net7.0\ref\Grupp_J_Väderdata.dll
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Programmering i .NET C# 2/Kurs C# Kod/Grupp_J_Väderdata/Grupp_J_Väderdata/bin/Debug/net7.0/Grupp_J_Väderdata.exe
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Programmering i .NET C# 2/Kurs C# Kod/Grupp_J_Väderdata/Grupp_J_Väderdata/bin/Debug/net7.0/Grupp_J_Väderdata.deps.json
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Programmering i .NET C# 2/Kurs C# Kod/Grupp_J_Väderdata/Grupp_J_Väderdata/bin/Debug/net7.0/Grupp_J_Väderdata.runtimeconfig.json
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Programmering i .NET C# 2/Kurs C# Kod/Grupp_J_Väderdata/Grupp_J_Väderdata/bin/Debug/net7.0/Grupp_J_Väderdata.dll
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Programmering i .NET C# 2/Kurs C# Kod/Grupp_J_Väderdata/Grupp_J_Väderdata/bin/Debug/net7.0/Grupp_J_Väderdata.pdb
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Programmering i .NET C# 2/Kurs C# Kod/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Programmering i .NET C# 2/Kurs C# Kod/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.AssemblyInfoInputs.cache
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Programmering i .NET C# 2/Kurs C# Kod/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.AssemblyInfo.cs
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Programmering i .NET C# 2/Kurs C# Kod/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.csproj.CoreCompileInputs.cache
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Programmering i .NET C# 2/Kurs C# Kod/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.dll
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Programmering i .NET C# 2/Kurs C# Kod/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/refint/Grupp_J_Väderdata.dll
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Programmering i .NET C# 2/Kurs C# Kod/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.pdb
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Programmering i .NET C# 2/Kurs C# Kod/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.genruntimeconfig.cache
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Programmering i .NET C# 2/Kurs C# Kod/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/ref/Grupp_J_Väderdata.dll
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Arkitektur av applikationer i .NET C#/C# Koder/Grupp_J_Väderdata/Grupp_J_Väderdata/bin/Debug/net7.0/Grupp_J_Väderdata.exe
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Arkitektur av applikationer i .NET C#/C# Koder/Grupp_J_Väderdata/Grupp_J_Väderdata/bin/Debug/net7.0/Grupp_J_Väderdata.deps.json
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Arkitektur av applikationer i .NET C#/C# Koder/Grupp_J_Väderdata/Grupp_J_Väderdata/bin/Debug/net7.0/Grupp_J_Väderdata.runtimeconfig.json
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Arkitektur av applikationer i .NET C#/C# Koder/Grupp_J_Väderdata/Grupp_J_Väderdata/bin/Debug/net7.0/Grupp_J_Väderdata.dll
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Arkitektur av applikationer i .NET C#/C# Koder/Grupp_J_Väderdata/Grupp_J_Väderdata/bin/Debug/net7.0/Grupp_J_Väderdata.pdb
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Arkitektur av applikationer i .NET C#/C# Koder/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Arkitektur av applikationer i .NET C#/C# Koder/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.AssemblyInfoInputs.cache
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Arkitektur av applikationer i .NET C#/C# Koder/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.AssemblyInfo.cs
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Arkitektur av applikationer i .NET C#/C# Koder/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.csproj.CoreCompileInputs.cache
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Arkitektur av applikationer i .NET C#/C# Koder/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.dll
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Arkitektur av applikationer i .NET C#/C# Koder/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/refint/Grupp_J_Väderdata.dll
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Arkitektur av applikationer i .NET C#/C# Koder/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.pdb
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Arkitektur av applikationer i .NET C#/C# Koder/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.genruntimeconfig.cache
+C:/Users/roblo_fjwpcan/OneDrive/SYSTEM23 Kurs/SYSTEM23 Arkitektur av applikationer i .NET C#/C# Koder/Grupp_J_Väderdata/Grupp_J_Väderdata/obj/Debug/net7.0/ref/Grupp_J_Väderdata.dll
+/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/bin/Debug/net7.0/Grupp_J_Väderdata
+/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/bin/Debug/net7.0/Grupp_J_Väderdata.deps.json
+/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/bin/Debug/net7.0/Grupp_J_Väderdata.runtimeconfig.json
+/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/bin/Debug/net7.0/Grupp_J_Väderdata.dll
+/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/bin/Debug/net7.0/Grupp_J_Väderdata.pdb
+/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.AssemblyInfoInputs.cache
+/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.AssemblyInfo.cs
+/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.csproj.CoreCompileInputs.cache
+/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.dll
+/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/obj/Debug/net7.0/refint/Grupp_J_Väderdata.dll
+/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.pdb
+/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/obj/Debug/net7.0/Grupp_J_Väderdata.genruntimeconfig.cache
+/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/obj/Debug/net7.0/ref/Grupp_J_Väderdata.dll

@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{E3E9FFB3-8181-4647-9C1A-A33125ED238B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Grupp_J_Väderdata/MyMeths.cs">
+    <Files>
+      <File FileName="Grupp_J_Väderdata/Program.cs" Line="44" Column="41" />
+      <File FileName="Grupp_J_Väderdata/MyMeths.cs" Line="107" Column="25" />
+      <File FileName="Grupp_J_Väderdata/WeatherProcessor.cs" Line="18" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Grupp_J_Väderdata">
+            <Node name="Grupp_J_Väderdata" expanded="True">
+              <Node name="MyMeths.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Grupp__J__Väderdata PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -18,11 +18,13 @@ namespace Grupp_J_Väderdata
                 Console.WriteLine("[5]Datum för meteorologisk Höst. Datum för meteologisk vinter(OBS Mild vinter!)");
 
                 Console.WriteLine("\nINOMHUS");
-                Console.WriteLine("[6]Medeltemperatur för valt datum(sökmöjlighet med validering)");  
+                Console.WriteLine("[6]Medeltemperatur för valt datum(sökmöjlighet med validering)");
                 Console.WriteLine("[7]Sortering av varmast till kallaste dagen enligt medeltemperatur per dag");
                 Console.WriteLine("[8]Sortering av torrast till fuktigaste dagen enligt medelluftfuktighet per dag");
                 Console.WriteLine("[9]Sortering av minst till störst risk av mögel");
                 Console.WriteLine("[a]Mögelrisk\n");
+
+                Console.WriteLine("\n[W]Skapa fil\n");
 
 
                 //MyMeths.TestFileReadMatch();
@@ -34,7 +36,7 @@ namespace Grupp_J_Väderdata
                     case '1':
                         //    Utomhus:
                         //◦ Medeltemperatur och luftfuktighet per dag, för valt datum(sökmöjlighet med validering)
-                        
+
                         MyMeths.Method1();
                         break;
                     case '2':
@@ -75,7 +77,11 @@ namespace Grupp_J_Väderdata
                         //Mögelrisk
                         MyMeths.MoldFormula();
                         break;
-                    
+                    case 'W':
+                        //Skriv fil
+                        MyMeths.WriteFile();
+                        break;
+
                     default:
                         Console.WriteLine("Fel! Prova igen..");
                         break;
@@ -83,7 +89,7 @@ namespace Grupp_J_Väderdata
 
                 Console.ReadKey(true);
                 Console.Clear();
-            
+
             }
         }
     }
