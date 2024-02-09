@@ -7,6 +7,7 @@ using Grupp_J_Väderdata;
 
 class WriteFile
 {
+    //Skirver ut fil
     public static void MonthSummary()
     {
         string inputFilePath = @"../../../Files/tempdata5-med fel.txt";
