@@ -8,32 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\roblo_fjwpcan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/jack.blomqvist/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roblo_fjwpcan\\OneDrive\\SYSTEM23 Kurs\\SYSTEM23 Arkitektur av applikationer i .NET C#\\C# Koder\\Grupp_J_Väderdata\\Grupp_J_Väderdata\\Grupp_J_Väderdata.csproj",
+      "projectUniqueName": "/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/Grupp_J_Väderdata.csproj",
       "projectName": "Grupp_J_Väderdata",
-      "projectPath": "C:\\Users\\roblo_fjwpcan\\OneDrive\\SYSTEM23 Kurs\\SYSTEM23 Arkitektur av applikationer i .NET C#\\C# Koder\\Grupp_J_Väderdata\\Grupp_J_Väderdata\\Grupp_J_Väderdata.csproj",
-      "packagesPath": "C:\\Users\\roblo_fjwpcan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\roblo_fjwpcan\\OneDrive\\SYSTEM23 Kurs\\SYSTEM23 Arkitektur av applikationer i .NET C#\\C# Koder\\Grupp_J_Väderdata\\Grupp_J_Väderdata\\obj\\",
+      "projectPath": "/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/Grupp_J_Väderdata.csproj",
+      "packagesPath": "/Users/jack.blomqvist/.nuget/packages/",
+      "outputPath": "/Users/jack.blomqvist/Documents/GitHub/Grupp_J_Vaderdata/Grupp_J_Väderdata/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\roblo_fjwpcan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/jack.blomqvist/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
       }
     }
   }

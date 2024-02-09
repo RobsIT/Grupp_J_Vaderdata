@@ -24,7 +24,7 @@ namespace Grupp_J_Väderdata
                 Console.WriteLine("[9]Sortering av minst till störst risk av mögel");
                 Console.WriteLine("[a]Mögelrisk\n");
 
-                Console.WriteLine("\n[W]Skapa fil\n");
+                Console.WriteLine("\n[f]Skapa fil\n");
 
 
                 //MyMeths.TestFileReadMatch();
@@ -76,10 +76,6 @@ namespace Grupp_J_Väderdata
                     case 'a':
                         //Mögelrisk
                         MyMeths.MoldFormula();
-                        break;
-                    case 'W':
-                        //Skriv fil
-                        MyMeths.WriteFile();
                         break;
 
                     default:
