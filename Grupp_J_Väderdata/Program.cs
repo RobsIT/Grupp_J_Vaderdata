@@ -79,7 +79,4 @@ namespace Grupp_J_Väderdata
             }
         }
     }
-
-
-
 }

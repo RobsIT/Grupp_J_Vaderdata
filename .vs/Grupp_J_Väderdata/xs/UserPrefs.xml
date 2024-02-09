@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{E3E9FFB3-8181-4647-9C1A-A33125ED238B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Grupp_J_Väderdata/WriteFile.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Grupp_J_Väderdata/WeatherProcesses.cs">
     <Files>
-      <File FileName="Grupp_J_Väderdata/Program.cs" />
-      <File FileName="Grupp_J_Väderdata/MyMeths.cs" />
-      <File FileName="Grupp_J_Väderdata/WeatherProcesses.cs" />
+      <File FileName="Grupp_J_Väderdata/Program.cs" Line="81" Column="6" />
+      <File FileName="Grupp_J_Väderdata/MyMeths.cs" Line="1" Column="1" />
+      <File FileName="Grupp_J_Väderdata/WeatherProcesses.cs" Line="29" Column="10" />
       <File FileName="Grupp_J_Väderdata/WriteFile.cs" Line="10" Column="21" />
     </Files>
     <Pads>
@@ -11,7 +11,8 @@
         <State name="__root__">
           <Node name="Grupp_J_Väderdata" expanded="True">
             <Node name="Grupp_J_Väderdata" expanded="True">
-              <Node name="WriteFile.cs" selected="True" />
+              <Node name="Files" expanded="True" />
+              <Node name="WeatherProcesses.cs" selected="True" />
             </Node>
           </Node>
         </State>
