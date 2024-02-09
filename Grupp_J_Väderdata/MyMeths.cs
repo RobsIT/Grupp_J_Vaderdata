@@ -39,10 +39,10 @@ namespace Grupp_J_Väderdata
         }
 
         //UTOMHUS
-        public static void Method1()
+        public static void AvgTempratureAndHumidityPerDayOutside()
         {
             //Medeltemperatur och luftfuktighet per dag, för valt datum(sökmöjlighet med validering).
-            Console.WriteLine("Medeltemperatur och luftfuktighet per dag, för valt datum (sökmöjlighet med validering).");
+            Console.WriteLine("Medeltemperatur och luftfuktighet per dag, för valt datum (sökmöjlighet med validering).\n");
 
             // Läser in filinnehållet
             string fileContent = ReadFileContent("tempdata5-med fel.txt");
@@ -56,27 +56,24 @@ namespace Grupp_J_Väderdata
             WeatherProcesses.TemperatureAndHumidity(preprocessedData, dateInput, "Ute");
         }
 
-
-
-        public static void Method2()
+        public static void WarmestToColdestAvgTempOutside()
         {
-            // Sortering av varmast till kallaste dagen enligt medeltemperatur per dag
-            Console.WriteLine("Varmaste till kallaste medeltemperatur per dag utomhus:");
 
             // Läs in och preprocessa filinnehållet
             string fileContent = ReadFileContent("tempdata5-med fel.txt");
             var preprocessedData = WeatherProcesses.PreprocessData(fileContent);
+            // Sortering av varmast till kallaste dagen enligt medeltemperatur per dag
+            Console.WriteLine("Varmaste till kallaste medeltemperatur per dag utomhus:\n");
 
             // Bearbeta och presentera temperaturdata
             WeatherProcesses.TemperatureData(preprocessedData, "Ute");
         }
 
 
-
-        public static void Method3()
+        public static void DriestToHumidAvgHumidityOutside()
         {
             //Sortering av torrast till fuktigaste dagen enligt medelluftfuktighet per dag
-            Console.WriteLine("Torrast till fuktigaste dagen enligt medelluftfuktighet per dag utomhus:");
+            Console.WriteLine("Torrast till fuktigaste dagen enligt medelluftfuktighet per dag utomhus:\n");
 
             // Läs in och preprocessa filinnehållet
             string fileContent = ReadFileContent("tempdata5-med fel.txt");
@@ -88,10 +85,10 @@ namespace Grupp_J_Väderdata
 
 
 
-        public static void Method4()
+        public static void MoldRiskSortedOutside()
         {
             // Sortering av minst till störst risk av mögel
-            Console.WriteLine("Sortering av minst till störst risk av mögel utomhus:");
+            Console.WriteLine("Sortering av minst till störst risk av mögel utomhus:\n");
 
             // Läs in och preprocessa filinnehållet
             string fileContent = ReadFileContent("tempdata5-med fel.txt");
@@ -101,38 +98,13 @@ namespace Grupp_J_Väderdata
             WeatherProcesses.MoldRiskData(preprocessedData, "Ute");
         }
 
-        public static void Method5()
-        {
-            //◦ Datum för meteorologisk Höst
-            Console.WriteLine("Datum för meteorologisk Höst:");
-            string filePath = "../../../Files/" + "tempdata5-med fel.txt";
-            string fileContent = File.ReadAllText(filePath);
-            var preprocessedData = WeatherProcesses.PreprocessData(fileContent);//Hoppar över April 2016 och Jan 2017.
-            var selectedData = preprocessedData.Where(g => g.Groups[3].Value == "Ute");
-            Console.WriteLine("- " + selectedData.Count());
-            //var avgTemp = selectedData.Average(g => double.Parse(g.Groups[4].Value == @"(\d+\.\d+)"));
-            //var autumnTemp = selectedData.Count(g => double.Parse(g.Groups[4].Value <= "10"));
-            //var autumnDays = selectedData.Select((temp, index) => new { Temperature = temp, Day = index + 1 }).Where(entry => entry.Temperature < 10.0);
-
-
-            //var autumnDate = selectedData.Where(g => g.Groups[1].Value == @"(2016-\d{2}-\d{2})" && g.Groups[3].Value == "Ute" && g.Groups[4].Value == @"(\\d+\\.\\d+)");
-
-
-
-            //Console.Write($"Meteorologisk höst börjar: {avgTemp}");
-
-
-            //◦ Datum för meteologisk vinter(OBS Mild vinter!)
-
-
-        }
 
         //INOMHUS
 
-        public static void Method6()
+        public static void AvgTempratureAndHumidityPerDayInside()
         {
             //Medeltemperatur och luftfuktighet per dag, för valt datum(sökmöjlighet med validering).
-            Console.WriteLine("Medeltemperatur och luftfuktighet per dag, för valt datum (sökmöjlighet med validering).");
+            Console.WriteLine("Medeltemperatur och luftfuktighet per dag, för valt datum (sökmöjlighet med validering).\n");
 
             // Läser in filinnehållet
             string fileContent = ReadFileContent("tempdata5-med fel.txt");
@@ -147,24 +119,25 @@ namespace Grupp_J_Väderdata
         }
 
 
-        public static void Method7()
+        public static void WarmestToColdestAvgTempInside()
         {
             // Sortering av varmast till kallaste dagen enligt medeltemperatur per dag
-            Console.WriteLine("Varmaste till kallaste medeltemperatur per dag inomhus:");
+            Console.WriteLine("Varmaste till kallaste medeltemperatur per dag inomhus:\n");
 
             // Läs in och preprocessa filinnehållet
             string fileContent = ReadFileContent("tempdata5-med fel.txt");
             var preprocessedData = WeatherProcesses.PreprocessData(fileContent);
+
 
             // Bearbeta och presentera temperaturdata
             WeatherProcesses.TemperatureData(preprocessedData, "Inne");
 
         }
 
-        public static void Method8()
+        public static void DriestToHumidAvgHumidityInside()
         {
             // Sortering av torrast till fuktigaste dagen enligt medelluftfuktighet per dag
-            Console.WriteLine("Torrast till fuktigaste dagen enligt medelluftfuktighet per dag inomhus:");
+            Console.WriteLine("Torrast till fuktigaste dagen enligt medelluftfuktighet per dag inomhus:\n");
 
             // Läs in och preprocessa filinnehållet
             string fileContent = ReadFileContent("tempdata5-med fel.txt");
@@ -175,10 +148,10 @@ namespace Grupp_J_Väderdata
         }
 
 
-        public static void Method9()
+        public static void MoldRiskSortedInside()
         {
             // Sortering av minst till störst risk av mögel
-            Console.WriteLine("Sortering av minst till störst risk av mögel inomhus:");
+            Console.WriteLine("Sortering av minst till störst risk av mögel inomhus:\n");
 
             // Läs in och preprocessa filinnehållet
             string fileContent = ReadFileContent("tempdata5-med fel.txt");
@@ -186,48 +159,6 @@ namespace Grupp_J_Väderdata
 
             // Bearbeta och presentera mögelriskdata
             WeatherProcesses.MoldRiskData(preprocessedData, "Inne");
-        }
-
-        //Ha kavr detta?
-        public static void MoldFormula()
-        {
-            //Mögelrisk
-            double moldvalue = 0;
-
-            Console.Write("Ange temperatur 'C: ");
-            double temperature = double.Parse(Console.ReadLine());
-
-            Console.Write("Ange fuktighet %: ");
-            double humidity = double.Parse(Console.ReadLine());
-
-            // Beräkna mögelrisk baserat på temperatur och fuktighet
-            moldvalue = ((humidity - 78) * (temperature / 15)) / 0.22; //((luftfuktighet -78) * (Temp/15))/0,22
-            //moldvalue = (temperature - (0.55 * (1 - (humidity / 100)))) * 2.5;
-            if (moldvalue >= 100) { moldvalue = 100; }
-            if (moldvalue <= 0) { moldvalue = 0; }
-            Console.WriteLine("Mögelrisk: " + moldvalue + "%");
-        }
-
-        public static void TestFileReadMatch() //FUNKAR!!!
-        {
-            string filePath = "../../../Files/" + "tempdata5-med fel.txt";
-
-            string fileContent = File.ReadAllText(filePath);
-
-            string regexPattern = @"2016-06-01\s00:\d{2}:\d{2},[^,]+,\d+\.\d+,\d+";
-            //HELA \d{4}-\d{2}-\d{2}\s\d{2}:\d{2}:\d{2},[^,]+,\d+\.\d+,\d+
-            Regex regex = new Regex(regexPattern);
-
-            MatchCollection matches = regex.Matches(fileContent);
-
-            Console.WriteLine("Matchningar: ");
-            int rowCount = 1;
-            foreach (Match match in matches)
-            {
-                Console.WriteLine(rowCount + " " + match.Value);
-                rowCount++;
-            }
-
         }
     }
 }

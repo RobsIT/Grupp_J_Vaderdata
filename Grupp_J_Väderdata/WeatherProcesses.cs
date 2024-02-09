@@ -28,7 +28,6 @@ namespace Grupp_J_Väderdata
             });
         }
 
-
         public static void TemperatureAndHumidity(IEnumerable<Match> preprocessedData, string dateInput, string location)
         {
             var selectedData = preprocessedData.Where(g => g.Groups[1].Value == dateInput && g.Groups[3].Value == location);
@@ -45,7 +44,6 @@ namespace Grupp_J_Väderdata
             Console.WriteLine($"\nDatum: {dateInput} | Plats: {location} | Medeltemperatur: {avgTemp}°C | Medelluftfuktighet: {avgHumidity}% ");
         }
 
-
         public static void TemperatureData(IEnumerable<Match> preprocessedData, string location)
         {
             var dailyTemperatures = preprocessedData
@@ -61,9 +59,11 @@ namespace Grupp_J_Väderdata
 
             foreach (var day in dailyTemperatures)
             {
-                Console.WriteLine($"{day.Date} | Medeltemperatur = {day.AvgTemp}°C");
+                //Här används en extention 
+                $"{day.Date} | Medeltemperatur = {day.AvgTemp}°C".Print();
             }
         }
+
 
         public static void HumidityData(IEnumerable<Match> preprocessedData, string location)
         {

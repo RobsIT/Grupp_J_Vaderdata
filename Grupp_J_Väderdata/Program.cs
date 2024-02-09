@@ -10,73 +10,64 @@ namespace Grupp_J_Väderdata
         {
             while (true)
             {
+                Console.Clear();
                 Console.WriteLine("UTOMHUS");
-                Console.WriteLine("[1]Medeltemperatur och luftfuktighet per dag, för valt datum(sökmöjlighet med validering)");
+                Console.WriteLine("[1]Medeltemperatur och luftfuktighet per dag, för valt datum");
                 Console.WriteLine("[2]Sortering av varmast till kallaste dagen enligt medeltemperatur per dag");
                 Console.WriteLine("[3]Sortering av torrast till fuktigaste dagen enligt medelluftfuktighet per dag");
                 Console.WriteLine("[4]Sortering av minst till störst risk av mögel");
-                Console.WriteLine("[5]Datum för meteorologisk Höst. Datum för meteologisk vinter(OBS Mild vinter!)");
 
                 Console.WriteLine("\nINOMHUS");
-                Console.WriteLine("[6]Medeltemperatur för valt datum(sökmöjlighet med validering)");
-                Console.WriteLine("[7]Sortering av varmast till kallaste dagen enligt medeltemperatur per dag");
-                Console.WriteLine("[8]Sortering av torrast till fuktigaste dagen enligt medelluftfuktighet per dag");
-                Console.WriteLine("[9]Sortering av minst till störst risk av mögel");
-                Console.WriteLine("[a]Mögelrisk\n");
-
-                Console.WriteLine("\n[f]Skapa fil\n");
-
-
-                //MyMeths.TestFileReadMatch();
+                Console.WriteLine("[5]Medeltemperatur och luftfuktighet per dag för valt datum");
+                Console.WriteLine("[6]Sortering av varmast till kallaste dagen enligt medeltemperatur per dag");
+                Console.WriteLine("[7]Sortering av torrast till fuktigaste dagen enligt medelluftfuktighet per dag");
+                Console.WriteLine("[8]Sortering av minst till störst risk av mögel");
+                Console.WriteLine("\n[f]Skapa fil");
+                Console.WriteLine("\n[q]Avsluta\n");
 
 
                 ConsoleKeyInfo key = Console.ReadKey(true);
+
                 switch (key.KeyChar)
                 {
                     case '1':
-                        //    Utomhus:
-                        //◦ Medeltemperatur och luftfuktighet per dag, för valt datum(sökmöjlighet med validering)
-
-                        MyMeths.Method1();
+                        MyMeths.AvgTempratureAndHumidityPerDayOutside();
                         break;
                     case '2':
                         //◦ Sortering av varmast till kallaste dagen enligt medeltemperatur per dag
-                        MyMeths.Method2();
+                        MyMeths.WarmestToColdestAvgTempOutside();
                         break;
                     case '3':
                         //◦ Sortering av torrast till fuktigaste dagen enligt medelluftfuktighet per dag
-                        MyMeths.Method3();
+                        MyMeths.DriestToHumidAvgHumidityOutside();
                         break;
                     case '4':
                         //◦ Sortering av minst till störst risk av mögel
-                        MyMeths.Method4();
+                        MyMeths.MoldRiskSortedOutside();
                         break;
                     case '5':
-                        //◦ Datum för meteorologisk Höst
-                        //◦ Datum för meteologisk vinter(OBS Mild vinter!)
-                        MyMeths.Method5();
-                        break;
-                    case '6':
                         //    Inomhus
                         //◦ Medeltemperatur för valt datum(sökmöjlighet med validering)
-                        MyMeths.Method6();
+                        MyMeths.AvgTempratureAndHumidityPerDayInside();
+                        break;
+                    case '6':
+                        //◦ Sortering av varmast till kallaste dagen enligt medeltemperatur per dag
+                        MyMeths.WarmestToColdestAvgTempInside();
                         break;
                     case '7':
-                        //◦ Sortering av varmast till kallaste dagen enligt medeltemperatur per dag
-                        MyMeths.Method7();
+                        //◦ Sortering av torrast till fuktigaste dagen enligt medelluftfuktighet per dag
+                        MyMeths.DriestToHumidAvgHumidityInside();
                         break;
                     case '8':
-                        //◦ Sortering av torrast till fuktigaste dagen enligt medelluftfuktighet per dag
-                        MyMeths.Method8();
-                        break;
-                    case '9':
                         //◦ Sortering av minst till störst risk av mögel
-                        MyMeths.Method9();
+                        MyMeths.MoldRiskSortedInside();
                         break;
-                    case 'a':
-                        //Mögelrisk
-                        MyMeths.MoldFormula();
+                    case 'f':
+                        WriteFile.MonthSummary();
                         break;
+                    case 'q':
+                        Console.WriteLine("Avslutar...");
+                        return;
 
                     default:
                         Console.WriteLine("Fel! Prova igen..");
@@ -84,7 +75,6 @@ namespace Grupp_J_Väderdata
                 }
 
                 Console.ReadKey(true);
-                Console.Clear();
 
             }
         }
